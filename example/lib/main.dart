@@ -46,7 +46,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     IconButton(icon: Icon(Icons.open_in_new), onPressed: () {})
                   ],
                 ),
-                body: Container(),
+                body: Center(
+                  child: ExpandableStatus.of(context).isExpanded
+                      ? Text("Expanded", style: TextStyle(fontSize: 50.0),)
+                      : Text("Floating", style: TextStyle(fontSize: 50.0),),
+                ),
               ),
             ),
             verticalOnly: true,

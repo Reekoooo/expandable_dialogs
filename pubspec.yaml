@@ -1,8 +1,8 @@
 name: expandable_dialogs
 description: A new Flutter package for expandable dialogs
-version: 0.0.1
+version: 0.0.3
 author: 'Saed Nabil <sa3eednabil@gmail.com>'
-homepage: 'https://stackoverflow.com/users/10660823/saed-nabil'
+homepage: https://github.com/Reekoooo/expandable_dialogs
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
