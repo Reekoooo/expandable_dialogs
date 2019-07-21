@@ -2,8 +2,6 @@
 
 A new Flutter package for expandable dialogs
 
-<img src="https://imgur.com/zitPFg5" width="30%" alt="logo" />
-
 ## Overview
 
 This package helps to transform any flutter widget into a floating draggable window.
